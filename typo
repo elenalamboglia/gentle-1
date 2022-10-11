@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -7,13 +7,13 @@
 
     <div class="carousel-inner size">
       <div class="carousel-item active">
-        <img src="./img/dont-adapt-to-the-energy.jpg" class="d-block w-100" alt="Don't adapt to the energy in the room">
+        <img src="./img/wave-of-life.jpg" class="d-block" alt="Don't adapt to the energy in the room">
       </div>
       <div class="carousel-item size">
-        <img src="./img/i-am-a-different-person.jpg" class="d-block w-100" alt="I am a different person">
+        <img src="./img/wave-of-life.jpg" class="d-block" alt="I am a different person">
       </div>
       <div class="carousel-item size">
-        <img src="./img/there-is-no-end.jpg" class="d-block w-100" alt="There is no end">
+        <img src="./img/wave-of-life.jpg" class="d-block" alt="There is no end">
       </div>
       
     </div>
@@ -25,4 +25,4 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> -->

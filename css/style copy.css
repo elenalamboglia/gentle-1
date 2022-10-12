@@ -83,7 +83,6 @@
     }
 
     footer img {
-        padding: 5px;
         width: 30px;
         height: 30px;
     }
@@ -336,6 +335,7 @@
 /*-------------------- TABLET -----------------------*/
 
 @media (min-width: 750px) and (max-width: 1023px) {
+    
   /* --------------- GENERAL -------------- */
 
   .navbar-brand{
@@ -419,7 +419,6 @@ footer {
 }
 
 footer img {
-    padding: 5px;
     width: 30px;
     height: 30px;
 }
@@ -754,14 +753,26 @@ form {
         padding: 5px;
     }
 
-    footer img {
-        padding: 5px;
-        width: 30px;
-        height: 30px;
+    .footer-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-ul{
+        display: flex;
+    }
+
+    .footer-links{
+        color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .social {
         text-align: center;
+        
     }
 
 

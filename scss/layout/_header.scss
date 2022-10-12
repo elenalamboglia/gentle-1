@@ -1,0 +1,45 @@
+.navbar-brand{
+    padding: 5px 0px 5px 0px;
+    margin: 4px;
+}
+
+.here{
+    color: #f1b1bf;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link:hover{
+    animation-name: lines;
+    animation-duration: 600ms;
+    animation-iteration-count: 1;
+    color: #f1b1bf;
+}
+
+.logo_pix {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #FAF9F8;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}

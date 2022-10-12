@@ -1,6 +1,21 @@
 /* GENERAL */
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes lines {
+    0% {
+        color: #2d2d2d;
+    }
+
+    100% {
+        color: #f1b1bf;
+    }
+}
 
 /*-------------------- MOBILE -----------------------*/
 
@@ -656,16 +671,63 @@ form {
 
     /* --------------- GENERAL -------------- */
 
-
-
-   
-
-   
-
+    .navbar-brand{
+        padding: 5px 0px 5px 0px;
+        margin: 4px;
+    }
     
+    .here{
+        color: #f1b1bf;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link:hover{
+        animation-name: lines;
+        animation-duration: 600ms;
+        animation-iteration-count: 1;
+        color: #f1b1bf;
+    }
+
+    .logo_pix {
+        width: 80px;
+        height: 80px;
+        display: flex;
+    }
+
+    .bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2d2d2d;
+        padding: 20px;
+    }
+
+    li {
+        list-style-type: none;
+        display: flex;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-    
+    header {
+        background-color: #FAF9F8;
+        position: sticky;
+        display: flex;
+        justify-content: center;
+    }
 /* 
     a:hover {
         animation-name: lines;
@@ -674,17 +736,278 @@ form {
         color: #f1b1bf;
     } */
 
-    
+    body {
+        background-color: #FAF9F8;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: 'Abyssinica SIL', serif;
+    }
+
+    .wrapper {
+        flex:1;
+    }
+
+    footer {
+        background-color: #FAF9F8;
+        padding: 5px;
+    }
+
+    .footer-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-ul{
+        display: flex;
+    }
+
+    .footer-links{
+        color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social {
+        text-align: center;
+        
+    }
 
 
-
-    
-
-   
+    /*--------------- BOOK CLUB ---------------*/
 
 
-    
+    .third_title {
+        text-align: center;
+        font-size: 34px;
+        letter-spacing: 4px;
+        word-spacing: 4px;
+        padding: 10px;
+    }
+
+    .third_title--pararaph {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 80px 50px 80px;
+    }
+
+    main img {
+        width: 218.25px;
+        height: 320.1px;
+        border-radius: 15px;
+        margin: 5px;
+    }
+
+    .main_grid {
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+        grid-template-areas:
+            "cover1 cover2 cover3 cover4"
+            "cover5 cover6 cover7 cover8"
+            "cover9 cover10 cover11 cover12"
+            "cover13 cover14 cover15 cover16"
+            "cover17 cover18 cover19 cover20";
+    }
 
 
-   
+    .cover_position {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cover1 {
+        grid-area: cover1;
+    }
+
+    .cover2 {
+        grid-area: cover2;
+    }
+
+    .cover3 {
+        grid-area: cover3;
+    }
+
+    .cover4 {
+        grid-area: cover4;
+    }
+
+    .cover5 {
+        grid-area: cover5;
+    }
+
+    .cover6 {
+        grid-area: cover6;
+    }
+
+    .cover7 {
+        grid-area: cover7;
+    }
+
+    .cover8 {
+        grid-area: cover8;
+    }
+
+    .cover9 {
+        grid-area: cover9;
+    }
+
+    .cover10 {
+        grid-area: cover10;
+    }
+
+    .cover11 {
+        grid-area: cover11;
+    }
+
+    .cover12 {
+        grid-area: cover12;
+    }
+
+    .cover13 {
+        grid-area: cover13;
+    }
+
+    .cover14 {
+        grid-area: cover14;
+    }
+
+    .cover15 {
+        grid-area: cover15;
+    }
+
+    .cover16 {
+        grid-area: cover16;
+    }
+
+    .cover17 {
+        grid-area: cover17;
+    }
+
+
+    /*----------------- HOME -----------------*/
+
+
+    .size {
+        object-fit: fill;
+        height: 400px;
+        width: 400px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .first_title--paragraph {
+        padding: 30px 0px 10px 35px;
+    }
+
+    .first_title--paragraph_second {
+        padding: 15px 0px 15px 35px;
+    }
+
+    .first_title--paragraph_third {
+        padding: 15px 0px 15px 35px;
+    }
+
+    .first_title--ending {
+        padding: 15px 0px 15px 35px;
+    }
+
+    .first_title--paragraph_fourth {
+        padding: 15px 0px 18px 35px;
+    }
+
+    .first_title--paragraph_fifth {
+        padding: 10px 0px 18px 35px;
+    }
+
+
+    /*------------ WHAT ARE YOU LOOKING FORWARD TO? ---------*/
+
+    .second_title {
+        text-align: center;
+        letter-spacing: 2.7px;
+        word-spacing: 4px;
+        padding: 10px;
+    }
+
+    .options {
+        margin: 5px;
+        background-color: #f1b1bf;
+        border-radius: 20px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .three_options {
+        color: #FCF8F4;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .second_title--instructions {
+        text-align: center;
+        padding: 10px 40px 10px 40px;
+    }
+
+
+    /*------------------- COMMUNITY ------------------*/
+
+
+    .fourth_title {
+        padding: 10px 0px 10px 37px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+    }
+
+
+    .name_next_to_field_community {
+        padding: 10px 0px 10px 37px;
+    }
+
+    .message_next_to_field_community {
+        padding: 10px 0px 10px 37px;
+    }
+
+    .send_button_community {
+        padding: 10px 0px 10px 37px;
+    }
+
+
+    /*----------------- CONTACT US SECTION ----------------*/
+
+
+    .fifth_title {
+        letter-spacing: 4px;
+        word-spacing: 3.8px;
+        padding: 10px 0px 10px 34px;
+        text-align: left;
+    }
+
+    .fifth_title--paragraph {
+        padding: 10px 0px 10px 34px;
+    }
+
+    form {
+        padding: 15px 0px 15px 34px;
+    }
+
+    .email_next_to_field {
+        padding: 10px 0px 5px 0px;
+    }
+
+    .message_next_to_field {
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+
 }
+
+

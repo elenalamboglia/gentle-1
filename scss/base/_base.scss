@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: #2d2d2d;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+}
+body {
+    background-color: #FAF9F8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.wrapper {
+    flex:1;
+}

@@ -1,0 +1,111 @@
+
+    /*--------------- BOOK CLUB ---------------*/
+
+
+    .third_title {
+        text-align: center;
+        font-size: 34px;
+        letter-spacing: 4px;
+        word-spacing: 4px;
+        padding: 10px;
+    }
+
+    .third_title--pararaph {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 80px 50px 80px;
+    }
+
+    main img {
+        width: 218.25px;
+        height: 320.1px;
+        border-radius: 15px;
+        margin: 5px;
+    }
+
+    .main_grid {
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+        grid-template-areas:
+            "cover1 cover2 cover3 cover4"
+            "cover5 cover6 cover7 cover8"
+            "cover9 cover10 cover11 cover12"
+            "cover13 cover14 cover15 cover16"
+            "cover17 cover18 cover19 cover20";
+    }
+
+
+    .cover_position {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cover1 {
+        grid-area: cover1;
+    }
+
+    .cover2 {
+        grid-area: cover2;
+    }
+
+    .cover3 {
+        grid-area: cover3;
+    }
+
+    .cover4 {
+        grid-area: cover4;
+    }
+
+    .cover5 {
+        grid-area: cover5;
+    }
+
+    .cover6 {
+        grid-area: cover6;
+    }
+
+    .cover7 {
+        grid-area: cover7;
+    }
+
+    .cover8 {
+        grid-area: cover8;
+    }
+
+    .cover9 {
+        grid-area: cover9;
+    }
+
+    .cover10 {
+        grid-area: cover10;
+    }
+
+    .cover11 {
+        grid-area: cover11;
+    }
+
+    .cover12 {
+        grid-area: cover12;
+    }
+
+    .cover13 {
+        grid-area: cover13;
+    }
+
+    .cover14 {
+        grid-area: cover14;
+    }
+
+    .cover15 {
+        grid-area: cover15;
+    }
+
+    .cover16 {
+        grid-area: cover16;
+    }
+
+    .cover17 {
+        grid-area: cover17;
+    }

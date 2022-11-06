@@ -20,3 +20,7 @@
 .send_button_community {
     padding: 10px 0px 10px 37px;
 }
+
+.btn-primary{
+    background-color: map-get($palette, "background");
+}

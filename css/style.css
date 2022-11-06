@@ -19,9 +19,6 @@ li {
 
 body {
   background-color: #FAF9F8;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   font-family: "Abyssinica SIL", serif;
 }
 
@@ -74,10 +71,8 @@ footer {
   color: #f1b1bf;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.top {
+  z-index: 1000;
 }
 
 .nav-link:hover {
@@ -90,26 +85,20 @@ nav {
 .logo_pix {
   width: 80px;
   height: 80px;
-  display: flex;
-}
-
-.bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
   background-color: #FAF9F8;
   position: sticky;
+}
+
+.separation {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.box-change {
+  border: none;
 }
 
 /*--------------- BOOK CLUB ---------------*/
@@ -235,6 +224,10 @@ main img {
   padding: 10px 0px 10px 37px;
 }
 
+.btn-primary {
+  background-color: #f1b1bf;
+}
+
 /*----------------- CONTACT US SECTION ----------------*/
 .fifth_title {
   letter-spacing: 4px;
@@ -322,6 +315,23 @@ form {
 .second_title--instructions {
   text-align: center;
   padding: 10px 40px 10px 40px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-middle {
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
